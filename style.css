@@ -1,3 +1,11 @@
+h1 {
+  color: #000000;
+  font-family: Playfair Display;
+  font-size: 30px;
+}
+
 h2 {
-font-family: Georgia;
+  color: #424242;
+  font-family: Raleway;
+  font-size: 20px;
 }
