@@ -4,6 +4,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Gallery</title>
   <style>
+  .navigation {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     color: #CCCCCC;
+   }
+   ul.navigation {
+     position: fixed;
+     overflow: hidden;
+     background-color: #FFF;
+     top: 0;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   li.navigation {
+     display: inline;
+   }
+   li.navigation:hover {
+     background: #E2E2E2;
+     color: #FFF;
+   }
    .logo {
    font-family: 'Montserrat', sans-serif;
    height: 105px;
@@ -17,22 +39,14 @@
    font-size: 30px;
     margin: 50px;
    }
-   .navigation {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 20px;
-   text-align: center;
-   color: #CCCCCC;
-   }
-   .navigation:hover {
-   background: #E2E2E2;
-   color: #FFF;
-   }
   </style>
  </head>
  <body>
   <nav class="navigation">
-   <a href="index.html">GALLERY</a>
-   <a href="about.html">ABOUT/CONTACT</a>
+    <ul class="navigation">
+      <li class="navigation"><a href="index.html">GALLERY</a></li>
+      <li class="navigation"><a href="about.html">ABOUT/CONTACT</a></li>
+    </ul>
   </nav>
   <div class="logo">
    <h1>ARIELLE JACQUELINE</h1>
